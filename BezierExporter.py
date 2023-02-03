@@ -1,8 +1,7 @@
 bl_info = {
-    "name": "Export BezierJSON for UE4",
+    "name": "Export Bezier2JSON",
     "blender": (2, 80, 0),
-    "author": "Alex Z.",
-    "location": "File > Export > BezierJSON For UE (.json)",
+    "location": "File > Export > Bezier2JSON (.json)",
     "category": "Import-Export",
 }
 
@@ -14,7 +13,7 @@ from bpy_extras.io_utils import ImportHelper
 
 class ObjectExportPoints(bpy.types.Operator, ImportHelper):
     bl_idname = "me.export_bezier_points" 
-    bl_label = "Export BezierJSON to UE4"   
+    bl_label = "Export BezierJSON"   
     bl_options = {'REGISTER'} 
     
     def execute(self, context):
@@ -63,7 +62,7 @@ class ObjectExportPoints(bpy.types.Operator, ImportHelper):
             return {'CANCELLED'}
 
 def menu_func(self, context):
-    self.layout.operator(ObjectExportPoints.bl_idname,text="Export BezierJSON For UE4 (.json)")
+    self.layout.operator(ObjectExportPoints.bl_idname,text="Export Bezier2JSON (.json)")
 
 def register():
     bpy.utils.register_class(ObjectExportPoints)
