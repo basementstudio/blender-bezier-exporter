@@ -7,7 +7,7 @@ This plug-in comes from the necessity of avoiding handcrafting bezier curves mos
 as we do with our `gltf` models? Remember that `gltf` doesn't support bezier data like points + handles info.
 
 There's where this plug-in makes sense. Imagine you need a spline that travels through a castle model, to animate the camera position for example. Crafting
-that by hand might be a pain in the ass 😬. Imagine that then for some reason you update your castle model, remove some rooms here and there and scale some
+that by hand might be a pain in the ass 😬. Now imagine that then for some reason you update your castle model, remove some rooms here and there and scale some
 stuff, you have go back and update all the points by hand again to keep it consistent with the model. There's no reason to do that if you can just update it
 on Blender working on the same context 🙏🏼.
 
