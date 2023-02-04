@@ -3,7 +3,7 @@ First of all note that this script is strongly inspired on @qerrant's [BezierBle
 We adapted it to export `json` instead of `csv`.
 
 # Why this?
-This plug-in comes from the necesity of avoiding handcrafting bezier curves mostly when they are related to some other geometry. Why can't we just export them
+This plug-in comes from the necessity of avoiding handcrafting bezier curves mostly when they are related to some other geometry. Why can't we just export them
 as we do with our `gltf` models? Remember that `gltf` doesn't support bezier data like points + handles info.
 
 There's where this plug-in makes sense. Imagine you need a spline that travels through a castle model, to animate the camera position for example. Crafting
