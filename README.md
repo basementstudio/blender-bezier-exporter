@@ -1,5 +1,5 @@
 # Blender Bezier2JSON Exporter
-First of all note that this script is hardly inspired on @qerrant's [BezierBlenderToUE](https://github.com/qerrant/BezierBlenderToUE) script.
+First of all note that this script is strongly inspired on @qerrant's [BezierBlenderToUE](https://github.com/qerrant/BezierBlenderToUE) script.
 We adapted it to export `json` instead of `csv`.
 
 # Why this?
