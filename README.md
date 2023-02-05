@@ -16,5 +16,5 @@ To use this plug-in just install it like any other custom Blender plug-in, it wi
 If you don't know how to install a custom plug-in [check this](https://youtu.be/cyt0O7saU4Q?t=33).
 
 # How to use it (ThreeJS)
-Once you have your `bezier.json` there's a piece of code that you'll need to parse it to ThreeJS interfaces, you can get it in [this example's code](https://github.com/basementstudio/basement-laboratory/blob/main/src/experiments/49.bezier-import.js)
+Once you have your `bezier.json` there's a piece of code that you'll need to parse it to ThreeJS classes, you can get it in [this example's code](https://github.com/basementstudio/basement-laboratory/blob/main/src/experiments/49.bezier-import.js)
 you can also see a demo of how it works on the [example's live url](https://lab.basement.studio/experiments/49.bezier-import.js).
